@@ -61,4 +61,4 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- Twitter - [@yourusername](https://www.twitter.com/alcocerseja)
+- Twitter - [@alcocerSejas](https://www.twitter.com/alcocersejas)
