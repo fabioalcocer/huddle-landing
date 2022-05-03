@@ -380,23 +380,21 @@ body {
   }
 
   .footer__social {
-    display: inline-flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
+    padding-top: 4rem;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
   }
 
   .social__icon {
-    width: 33px;
-    height: 33px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    padding: 7.5px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+    width: 40px;
+    height: 40px;
     transition: 0.4s;
   }
 
@@ -404,5 +402,9 @@ body {
     color: var(--Pink);
     border: 1px solid var(--Pink);
     transition: 0.4s;
+  }
+
+  .footer__copy {
+    padding-top: 5rem;
   }
 }
